@@ -29,7 +29,7 @@ div:nth-child(1) {
 div:nth-child(3) {
     display: inline-block;
     position: absolute;
-    left: 10%;
+    left: 130px;
 }
 
 .section {
@@ -45,7 +45,7 @@ div:nth-child(3) {
     position: absolute;
     width: 1px;
     height: 80px;
-    left: 8%;
+    left: 100px;
     background-color: #000;
     border: 1px solid #000;
 }
