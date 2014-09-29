@@ -23,7 +23,7 @@ img {
 }
 
 div:nth-child(1) {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 div:nth-child(3) {
@@ -41,7 +41,7 @@ div:nth-child(3) {
 }
 
 .hl {
-    display: inline-block;
+    display: inline-block !important;
     position: absolute;
     width: 1px;
     height: 80px;
