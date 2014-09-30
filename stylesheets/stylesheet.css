@@ -17,9 +17,13 @@ img {
     border: 5px solid #FFF;
     box-shadow: 2px 2px 2px #000;
     transform: rotate(-4deg);
-    -webkit-transform: rotate(-4deg);
-    -moz-transform: rotate(-4deg);
-    -o-transform: rotate(-4deg);
+}
+
+img:hover {
+    animation: spin 1s;
+    -webkit-animation: spin 1s;
+    -moz-animation: spin 1s;
+    -o-animation: spin 1s;
 }
 
 div:nth-child(1) {
@@ -48,4 +52,37 @@ div:nth-child(3) {
     left: 100px;
     background-color: #000;
     border: 1px solid #000;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(-4deg);
+    }
+    to {
+        transform: rotate(356deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+        transform: rotate(-4deg);
+    }
+    to {
+        transform: rotate(356deg);
+    }
+}
+@-moz-keyframes spin {
+    from {
+        transform: rotate(-4deg);
+    }
+    to {
+        transform: rotate(356deg);
+    }
+}
+@-o-keyframes spin {
+    from {
+        transform: rotate(-4deg);
+    }
+    to {
+        transform: rotate(356deg);
+    }
 }
